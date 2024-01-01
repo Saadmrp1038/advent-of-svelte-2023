@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
 	import * as Table from '$lib/components/ui/table';
 </script>
 
@@ -17,30 +16,26 @@
 		</Table.Header>
 		<Table.Body>
 			<Table.Row>
-				<!-- <Table.Cell
-					class="border-2 border-gray-600 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
-                    on:click={()=>{goto("/day1")}}
-				>
-                Day 1 - Naugthy or Nice
-				</Table.Cell> -->
 				<Table.Cell
-					class="border-2 border-gray-600 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
+					class="border-2 border-gray-600 p-0 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
 				>
-                <a href="/day1">Day 1 - Naugthy or Nice</a>
+					<a href="/day1"> <div class="p-4">Day 1 - Naugthy or Nice</div> </a>
+					<!-- Day 1 - Naugthy or Nice -->
+				</Table.Cell>
+			</Table.Row>
+
+			<Table.Row>
+				<Table.Cell
+					class="border-2 border-gray-600 p-0 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
+				>
+					<a href="/day2"> <div class="p-4">Day 2 - Merry Munch-o-Meter</div></a>
 				</Table.Cell>
 			</Table.Row>
 			<Table.Row>
 				<Table.Cell
-					class="border-2 border-gray-600 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
+					class="border-2 border-gray-600 p-0 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
 				>
-					Day 2 - Merry Munch-o-Meter
-				</Table.Cell>
-			</Table.Row>
-			<Table.Row>
-				<Table.Cell
-					class="border-2 border-gray-600 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
-				>
-					Day 3 - Jingle Bell Balancer
+					<a href="/day3"><div class="p-4">Day 3 - Jingle Bell Balancer</div></a>
 				</Table.Cell>
 			</Table.Row>
 		</Table.Body>

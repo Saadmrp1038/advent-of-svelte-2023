@@ -58,7 +58,7 @@ const config = {
 				sans: [...fontFamily.sans]
 			}
 		}
-	},
+	}
 };
 
 export default config;
