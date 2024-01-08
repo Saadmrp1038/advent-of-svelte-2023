@@ -12,9 +12,7 @@
 	let cookieCnt = 0;
 
 	const color = d3.interpolateLab('#CEFAD0', '#008631');
-	$: {
-		console.log(color);
-	}
+
 	const addCookie = () => {
 		if (cookieCnt < 50) cookieCnt++;
 	};
@@ -28,8 +26,14 @@
 	};
 </script>
 
-<div>
-	<div class="my-10 flex flex-row gap-5 justify-center">
+<div class="flex flex-col items-center">
+	<div
+		class="my-5 inline-block bg-gradient-to-br from-gray-400 via-zinc-400 to-stone-400 bg-clip-text text-4xl text-transparent"
+	>
+		Day 2 - Naughty or Nice
+	</div>
+
+	<div class="my-10 flex flex-row justify-center gap-5">
 		<div class=" my-10 flex flex-col items-center gap-5">
 			{#if cookieCnt < 10}
 				<img src={santa1} alt="santa-cry" width="80px" />
