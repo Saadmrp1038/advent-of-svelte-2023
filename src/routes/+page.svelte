@@ -38,6 +38,20 @@
 					<a href="/day3"><div class="p-4">Day 3 - Jingle Bell Balancer</div></a>
 				</Table.Cell>
 			</Table.Row>
+			<Table.Row>
+				<Table.Cell
+					class="border-2 border-gray-600 p-0 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
+				>
+					<a href="/day4"><div class="p-4">Day 4 - Heart of Christmas</div></a>
+				</Table.Cell>
+			</Table.Row>
+			<Table.Row>
+				<Table.Cell
+					class="border-2 border-gray-600 p-0 text-base font-medium text-[#9CA3AF] transition-[#hover] hover:bg-gray-600"
+				>
+					<a href="/day5"><div class="p-4">Day 5 - Present Progress</div></a>
+				</Table.Cell>
+			</Table.Row>
 		</Table.Body>
 	</Table.Root>
 </div>
