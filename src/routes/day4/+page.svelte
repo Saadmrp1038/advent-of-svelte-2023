@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
 	import { fade } from 'svelte/transition';
-	import { Button } from '$lib/components/ui/button';
 
 	let currentHeartRate: number = 0;
 	let heartRateHistory: number[] = [];
